@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSString+NumberFromString.h"
 
 @interface ViewController : UIViewController
 

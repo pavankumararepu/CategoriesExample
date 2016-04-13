@@ -13,6 +13,7 @@
 		0B2CA2C01CBDF52E002538C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2CA2BE1CBDF52E002538C5 /* Main.storyboard */; };
 		0B2CA2C21CBDF52E002538C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2CA2C11CBDF52E002538C5 /* Assets.xcassets */; };
 		0B2CA2C51CBDF52E002538C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2CA2C31CBDF52E002538C5 /* LaunchScreen.storyboard */; };
+		0B2CA2CE1CBDF7E8002538C5 /* NSString+NumberFromString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA2CD1CBDF7E8002538C5 /* NSString+NumberFromString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0B2CA2C11CBDF52E002538C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2CA2C41CBDF52E002538C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2CA2C61CBDF52E002538C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2CA2CC1CBDF7E8002538C5 /* NSString+NumberFromString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberFromString.h"; sourceTree = "<group>"; };
+		0B2CA2CD1CBDF7E8002538C5 /* NSString+NumberFromString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberFromString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0B2CA2B91CBDF52E002538C5 /* AppDelegate.m */,
 				0B2CA2BB1CBDF52E002538C5 /* ViewController.h */,
 				0B2CA2BC1CBDF52E002538C5 /* ViewController.m */,
+				0B2CA2CC1CBDF7E8002538C5 /* NSString+NumberFromString.h */,
+				0B2CA2CD1CBDF7E8002538C5 /* NSString+NumberFromString.m */,
 				0B2CA2BE1CBDF52E002538C5 /* Main.storyboard */,
 				0B2CA2C11CBDF52E002538C5 /* Assets.xcassets */,
 				0B2CA2C31CBDF52E002538C5 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2CA2BD1CBDF52E002538C5 /* ViewController.m in Sources */,
+				0B2CA2CE1CBDF7E8002538C5 /* NSString+NumberFromString.m in Sources */,
 				0B2CA2BA1CBDF52E002538C5 /* AppDelegate.m in Sources */,
 				0B2CA2B71CBDF52E002538C5 /* main.m in Sources */,
 			);
